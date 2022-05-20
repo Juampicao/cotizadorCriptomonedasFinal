@@ -8,7 +8,7 @@ import ImagenCripto2 from "./img/imagencripto2.webp";
 
 const Contenedor = styled.div`
   max-width: 900px;
-  margin: 0 auto;
+  margin: 10% auto;
   width: 90%;
   @media (min-width: 992px) {
     display: grid;
@@ -21,6 +21,12 @@ const Imagen = styled.img`
   width: 80%;
   margin: 100px auto 0 auto;
   display: block;
+  /* @media (min-width: 992px) {
+    margin: auto;
+  }
+  @media (min-width: 1100px) {
+    width: 600px;
+  } */
 `;
 
 const Heading = styled.h1`
@@ -31,6 +37,7 @@ const Heading = styled.h1`
   margin-top: 80px;
   margin-bottom: 50px;
   font-size: 34px;
+  margin: auto;
 
   &::after {
     content: "";
@@ -73,7 +80,7 @@ function App() {
       <Imagen src={ImagenCripto2} alt="imagenes criptomonedas" />
 
       <div>
-        <Heading>Cotiza Criptomonedas al Instante</Heading>
+        <Heading>Cotiza tus Criptomonedas </Heading>
         <Formulario setMonedas={setMonedas} />
 
         {cargando && <Spinner />}
