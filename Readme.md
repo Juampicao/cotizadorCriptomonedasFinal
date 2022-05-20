@@ -8,4 +8,3 @@ Comandos deploy local:
 
 Netlify => Subido post npm run build, de manera local, carpeta dist.
 
-prueba change
