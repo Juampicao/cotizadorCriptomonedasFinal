@@ -7,3 +7,5 @@ Comandos deploy local:
 3) Subir Carpeta Dist. 
 
 Netlify => Subido post npm run build, de manera local, carpeta dist.
+
+prueba change
